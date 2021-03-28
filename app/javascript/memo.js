@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const buildHTML = (XHR) => {
   const item = XHR.response.post;
   const html = `
@@ -37,5 +38,7 @@ function post (){
 }
 
 window.addEventListener('load', post);
+=======
+>>>>>>> parent of 11a1cfd (コントローラーにリクエストを送信する)
 =======
 >>>>>>> parent of 11a1cfd (コントローラーにリクエストを送信する)
