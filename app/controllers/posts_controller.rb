@@ -1,11 +1,11 @@
 class PostsController < ApplicationController
 
   def index 
-    @posts = Post.order(id: "DESC")
+    @posts = Post.all
   end  
 
-  # def new
-  # end  
+  def new
+  end  
 
   def create
 <<<<<<< HEAD
@@ -20,7 +20,6 @@ end
 =======
 >>>>>>> parent of 11a1cfd (コントローラーにリクエストを送信する)
     Post.create(content: params[:content])
-    redirect to action: index
   end  
 end
 <<<<<<< HEAD
