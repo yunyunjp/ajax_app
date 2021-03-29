@@ -1,14 +1,7 @@
 <h1>AjaxApp</h1>
 <%= form_with url:  "/posts", method: :post,id: "form" do |form| %>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   <%= form.text_field :content , id: "content" %>
-=======
-  <%= form.text_field :content %>
->>>>>>> parent of 11a1cfd (コントローラーにリクエストを送信する)
-=======
-  <%= form.text_field :content %>
->>>>>>> parent of 11a1cfd (コントローラーにリクエストを送信する)
   <%= form.submit '投稿する' , id: "submit" %>
 <% end %>
 
